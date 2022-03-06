@@ -1,15 +1,24 @@
 {
-  "name": "assets",
-  "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "name": "@gmcotta/meiuca-assets",
+  "version": "1.0.0",
+  "description": "Repositório de assets do curso de Design Systems para desenvolvedores da Meiuca",
+  "main": "src/build.js",
+  "author": "Gustavo Matias",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmcotta/meiuca-design-tokens"
+  },
+  "files": [
+    "dist"
+  ],  "scripts": {
     "build": "rimraf dist && node src/build.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "design-system",
+    "assets",
+    "meiuca"
+  ],
   "devDependencies": {
     "fs-extra": "^10.0.1",
     "react-native-svg": "^12.3.0",
