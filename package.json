@@ -1,6 +1,6 @@
 {
   "name": "@gmcotta/meiuca-assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Repositório de assets do curso de Design Systems para desenvolvedores da Meiuca",
   "main": "src/build.js",
   "author": "Gustavo Matias",
